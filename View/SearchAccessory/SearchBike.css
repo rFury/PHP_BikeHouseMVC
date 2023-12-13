@@ -1,0 +1,140 @@
+
+.xd {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  .xdd {
+      max-width: 50px;
+      max-height: 50px;
+      display: block;
+      margin: 0 auto;
+  }
+  
+  .bike-list {
+      text-align: center;
+      margin: 20px;
+    }
+  
+    /* Style the table */
+    .bike-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .bike-table th, .bike-table td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    .bike-table th {
+      background-color: #f0f0f0;
+      font-weight: bold;
+    }
+    /*nav bad and footer*/
+    header {
+      font-family: Arial, sans-serif;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+  }
+  
+  nav {
+      
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  nav ul {
+      list-style: none;
+      display: flex;
+  }
+  
+  nav li {
+      margin-right: 20px;
+  }
+  nav li:hover {
+      font-size: +110%;
+  }
+  
+  nav a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  nav a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  .nav-buttons {
+      display: flex;
+      align-items: center;
+  }
+  
+  .nav-buttons .btn {
+      margin-left: 20px;
+  }
+  .btn.sell-bike {
+      background-color: #f00;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+  }
+  
+  .btn.buy-bike {
+      background-color: #f00;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+  }
+  
+  .btn.sign-in {
+      background-color: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+  }
+  
+  .btn.sign-in:hover {
+      background-color: #fff;
+      color: #333;
+  }
+  footer {
+      position: relative;
+      bottom: 0px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+  }
+  .form-control {
+    
+    width: 98%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  /* Style for form control on focus */
+  .form-control:focus {
+    outline: none;
+    border-color: #ff8080;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+  }
